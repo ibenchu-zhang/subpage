@@ -1,0 +1,45 @@
+.top{
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #c0c0c0;
+}
+nav span{
+	background: #337ab7;
+}
+a{ 
+	font-size: 16px; 
+	color: #5a5a5a; 
+	text-decoration: none;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+	background-color: transparent;
+}
+.navbar{
+	margin: 0 auto;
+}
+.navbar-collapse{
+	padding-right: 0;
+}
+.nav>li>a{
+	font-size: 18px;
+	padding: 15px 0 15px 40px;
+}
+.container-fluid{
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+.carousel-caption{
+	position: absolute;
+	left: -160pc;
+	bottom: 150px;
+	padding-bottom: 0;
+}
+.carousel-caption p{
+	margin: 0;
+	font-size: 28px;
+}
+.carousel-caption .h1{
+	font-size: 75px;
+	
+}

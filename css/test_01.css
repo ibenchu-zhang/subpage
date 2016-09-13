@@ -1,0 +1,50 @@
+nav span{
+	background: #337ab7;
+}
+a{ 
+	font-size: 16px; 
+	color: #5a5a5a; 
+	text-decoration: none;
+}
+.top{
+	border-bottom: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #777;
+}
+.jumbotron{ 
+	background: #ffffff;
+}
+.jumbotron img{
+	margin-bottom: 10px;
+}
+.jumbotron p{
+	font-size: 12px;
+}
+.jumbotron input,
+.jumbotron textarea{
+	width: 45%;
+}
+.jumbotron input{
+	height: 30px;
+}
+.jumbotron textarea{
+	height: 300px;
+}
+@media screen and (max-width: 768px) {
+	.jumbotron textarea{
+		width: 80%;
+		height: 200px;
+	}
+}
+.jumbotron .btn{
+	padding: 5px 25px;
+	border-radius: 0;
+}
+.footer{
+	background: #343333;
+	padding: 100px 0 20px;
+}
+.footer a{ 
+	padding-left: 20px;
+	font-size: 12px;
+	color: #ffffff;
+}
